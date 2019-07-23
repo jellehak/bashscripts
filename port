@@ -1,0 +1,3 @@
+#!/bin/bash    
+echo "lsof -nP -i4TCP:$1 | grep LISTEN"
+lsof -nP -i4TCP:$1 | grep LISTEN
